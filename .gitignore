@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local database — your personal balances stay off GitHub
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets (database passwords)
+.streamlit/secrets.toml
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
