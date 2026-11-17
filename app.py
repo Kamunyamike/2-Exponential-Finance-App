@@ -1,4 +1,4 @@
-"""USD Money Doubling Tracker — Streamlit front end.
+"""Two Power Exponent — Streamlit front end.
 
 Run locally with:  streamlit run app.py
 
