@@ -753,7 +753,7 @@ def page_progress(capital: Fraction, multiplier: Fraction, week: int, db: Tracke
 # ---------------------------------------------------------------------------
 def sidebar(db: TrackerDB) -> None:
     with st.sidebar:
-        st.markdown('<div class="brand">💵 USD Money <span>Doubling</span> Tracker</div>'
+        st.markdown('<div class="brand">Two Power 40<span>Doubling</span> Tracker</div>'
                     '<div class="muted">Weekly compounding challenge</div>', unsafe_allow_html=True)
         st.write("")
         st.radio("Navigate", list(PAGES), format_func=PAGES.get, key="page",
