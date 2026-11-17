@@ -23,7 +23,7 @@ from database import DatabaseError, TrackerDB
 
 st.set_page_config(
     page_title="USD Money Doubling Tracker",
-    page_icon="💵",
+    page_icon="dash.png",
     layout="wide",
     initial_sidebar_state="auto",
 )
